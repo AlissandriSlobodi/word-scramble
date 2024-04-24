@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Здогадайся слово</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Здогадайся слово</h2>
+      <div class="content">
+        <p class="word"></p>
+        <div class="details">
+          <p class="hint">Підказка: <span></span></p>
+          <p class="time">
+            Час: <span><b>30</b>сек</span>
+          </p>
+        </div>
+        <input
+          type="text"
+          spellcheck="false"
+          placeholder="Enter a valid word"
+        />
+        <div class="buttons">
+          <button class="refresh-word">Оновити</button>
+          <button class="check-word">Перевірити</button>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
