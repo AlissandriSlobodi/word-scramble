@@ -132,9 +132,9 @@ initGame();
 
 const checkWord = () => {
   let userWord = inputField.value.toLowerCase();
-  if (!userWord) return alert("Please enter the word to check!");
+  if (!userWord) return alert("Введіть слово для перевірки!");
   if (userWord !== correctWord)
-    return alert(`Oops! ${userWord} is not a correct word`);
+    return alert(`Упс! ${userWord} - це не те слово :(`);
   alert(`Вітаємо! ${correctWord.toUpperCase()} - це вірне слово!`);
   initGame();
 };
